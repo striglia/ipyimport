@@ -1,2 +1,5 @@
+from ipyimport import gather
+
 def test_find_imported_modules():
-    return True
+    gather.find_imported_modules_for_module('tests/sample.py')
+    assert False
