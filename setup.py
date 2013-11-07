@@ -10,4 +10,5 @@ setup(
     author_email='scott.triglia@gmail.com',
     url='http://www.github.com/striglia/ipyimport',
     packages=['ipyimport'],
+    install_requires=['mock'],
 )
