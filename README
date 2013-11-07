@@ -1,2 +1,1 @@
-Convenience scripts for identifying what modules are being imported by a series
-of python scripts.
+ A small library for identifying failing python imports all at once.
