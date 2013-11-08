@@ -1,1 +1,5 @@
- A small library for identifying failing python imports all at once.
+A small library for identifying failing python imports all at once.
+
+Sample usage:
+	from ipyimport import find_failed_imports
+	print find_failed_imports('mymodule.py')
