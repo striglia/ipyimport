@@ -2,8 +2,9 @@ from ipyimport import gather
 
 
 def test_find_imported_modules(capsys):
-    failed_imports = gather.find_failed_imports('tests/testing/sample.py')
-    assert ['foobar'] == failed_imports.keys()
+    module = 'tests/testing/deeper/other_sample.py'
+    failed_imports = gather.find_failed_imports(module)
+    assert ['other_foobar'] == failed_imports.keys()
 
 
 def test_find_imported_modules_for_subdir():
